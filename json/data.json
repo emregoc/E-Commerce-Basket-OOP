@@ -1,0 +1,69 @@
+[{
+    "id":1,
+    "name": "Iphone XS",
+    "price": 100.00,
+    "currency": "TRY",
+    "status": 1,
+    "cpu": "X",
+    "os": "İos",
+    "ram": 128,
+    "screenSize": "1920x1080",
+    "category": "cellphone"
+}, {
+  "id": 2,
+  "name": "Xiaomi Redmi Note 9 Pro",
+  "price": 120,
+  "currency": "TRY",
+  "status": 1,
+  "cpu": "Y",
+  "os": "Android",
+  "ram": 256,
+  "screenSize": "1920x1080",
+  "category": "cellphone"
+}, {
+  "id": 3,
+  "name": "Samsung Galaxy S20",
+  "price": 200,
+  "currency": "TRY",
+  "status": 1,
+  "cpu": "Y",
+  "os": "Android",
+  "ram": 256,
+  "screenSize": "1920x1080",
+  "category": "cellphone"
+},{
+  "id": 4,
+  "name": "Wiskas Cat Feed",
+  "price": 240.5,
+  "currency": "TRY",
+  "status": 1,
+  "foodType": "dry",
+  "weight": 2500,
+  "packageType": "A", 
+  "category": "animalFood",
+  "subCategory": "cat"
+}, {
+    "id": 5,
+    "name": "Wiskas Dog Dry Feed",
+    "price": 125.75,
+    "currency": "TRY",
+    "status": 1,
+    "foodType": "dry",
+    "weight": 5000,
+    "packageType": "B", 
+    "category": "animalFood",
+    "subCategory": "dog",
+    "raceType": "small"
+  }, {
+    "id": 6,
+    "name": "Wiskas Dog Dry Feed Premium",
+    "price": 175.75,
+    "currency": "TRY",
+    "status": 1,
+    "foodType": "dry",
+    "weight": 5000,
+    "packageType": "B", 
+    "category": "animalFood",
+    "subCategory": "dog",
+    "raceType": "big"
+  }]

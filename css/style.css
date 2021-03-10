@@ -1,0 +1,19 @@
+body {
+	margin-top: 50px;
+    }
+    .maindiv{
+        width: 1850px;
+        margin-left: 50px;
+    }
+    .margin{
+        margin-top: 30px;
+    }
+    .marginleft{
+        margin-left: 30px;
+    }
+	.paddingright{
+		padding-right: -200px;
+	}
+	.inline{
+		float: left;
+	}
