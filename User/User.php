@@ -2,7 +2,9 @@
 
 namespace User;
 
-class User{
+include ('iUser.php');
+
+class User implements iUser{
 
     private $userPath;
     private $userFile;
@@ -14,16 +16,16 @@ class User{
         $this->user = json_decode(file_get_contents($this->userFile));
     }
 
-    public function getUser()
+    public function getUser() : array
     {
         return $this->user;
     }
-    public function getUsername($usernameid)
+    public function getUsername($usernameid) : string
     {
         $userName =$this->user[$usernameid-1]->username;
         return $userName;
     }
-    public function getPassword($passwordid)
+    public function getPassword($passwordid) : string 
     {
         $userPass =$this->user[$passwordid-1]->password;
         return $userPass;
